@@ -55,6 +55,8 @@ class AccountIDPrefix(enum.Enum):
     NANO = "nano_"
     """NANO prefix. Newer prefix, may not be supported by all endpoints."""
 
+    BAN = "ban_"
+    """BAN prefix, for Banano cryptocurrency."""
 
 ACCOUNT_ID_FIRST_DIGITS = ("1", "3")
 
